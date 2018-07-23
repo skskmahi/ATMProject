@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ATMMachine/ATMMachine/Scripts/modernizr-2.8.3.js
+/ATMMachine/packages/Modernizr.2.8.3/Content/Scripts/modernizr-2.8.3.js
+/ATMMachine/packages/Modernizr.2.8.3
+/ATMMachine/ATMMachine/bin
+/ATMMachine/ATMMachine/obj/Debug
+/ATMMachine/ATMMachine/Scripts
+/ATMMachine/packages
+/ATMMachine/ATMMachine/fonts
+/ATMMachine/ATMMachine/Content
+/ATMMachine/.vs
