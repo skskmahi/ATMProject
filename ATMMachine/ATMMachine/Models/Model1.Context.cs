@@ -26,5 +26,7 @@ namespace ATMMachine.Models
         }
     
         public virtual DbSet<employee> employees { get; set; }
+
+        public System.Data.Entity.DbSet<ATMMachine.Models.CheckingAccount> CheckingAccounts { get; set; }
     }
 }

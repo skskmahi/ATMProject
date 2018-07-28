@@ -34,3 +34,5 @@ C:\Users\prabha\Source\Repos\ATMProject\ATMMachine\ATMMachine.Tests\obj\Debug\AT
 C:\Users\prabha\Source\Repos\ATMProject\ATMMachine\ATMMachine.Tests\obj\Debug\ATMMachine.Tests.csproj.CopyComplete
 C:\Users\prabha\Source\Repos\ATMProject\ATMMachine\ATMMachine.Tests\obj\Debug\ATMMachine.Tests.dll
 C:\Users\prabha\Source\Repos\ATMProject\ATMMachine\ATMMachine.Tests\obj\Debug\ATMMachine.Tests.pdb
+C:\Users\prabha\Source\Repos\ATMProject\ATMMachine\ATMMachine.Tests\bin\Debug\EntityFramework.dll
+C:\Users\prabha\Source\Repos\ATMProject\ATMMachine\ATMMachine.Tests\bin\Debug\EntityFramework.xml

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
@@ -9,6 +10,7 @@ namespace ATMMachine.Controllers
 {
     public class CheckingAccountController : Controller
     {
+        
         // GET: CheckingAccount
         public ActionResult Index()
         {
@@ -17,12 +19,18 @@ namespace ATMMachine.Controllers
 
         // GET: CheckingAccount/Details
         // [Authorize]
-        [Authorize(Roles = "SK")]
+        //[Authorize(Roles = "SK")]
         //[RequireHttps]
         public ActionResult Details()
         {
-            return View();
-            
+            CheckingAccount cc = new CheckingAccount();
+            cc.AccountNo = "1236789%";
+            cc.Balance = 500;
+            cc.FirstName = "Sathesh";
+            cc.LastName = "Kumar";
+            cc.Id = 100;
+            return View(cc);
+
         }
 
         // GET: CheckingAccount/Create
